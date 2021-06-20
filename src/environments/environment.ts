@@ -12,6 +12,7 @@ export const environment = {
     storageBucket: "ionic-shopcart.appspot.com",
     messagingSenderId: "515660272260",
     appId: "1:515660272260:web:c874874e4589d0f89528d1",
+    measurementId: "G-R325Q1CTX3"
   }
 };
 

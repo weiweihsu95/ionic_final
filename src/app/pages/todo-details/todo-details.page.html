@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-toolbar color="primary">
+  <ion-toolbar>
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/src/reviews"></ion-back-button>
     </ion-buttons>
@@ -22,5 +22,5 @@
       <ion-input required type="number" placeholder="Priority" [(ngModel)]="todo.priority"></ion-input>
     </ion-item>
   </ion-list>
-  <ion-button expand="full" (click)="saveTodo()">Save</ion-button>
+  <ion-button color="medium" expand="full" (click)="saveTodo()" defaultHref="/src/reviews">Save</ion-button>
 </ion-content>
