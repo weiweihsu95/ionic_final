@@ -48,6 +48,10 @@ const routes: Routes = [
   {
     path: 'order',
     loadChildren: () => import('./order/order.module').then( m => m.OrderPageModule)
+  },
+  {
+    path: 'cart-modal',
+    loadChildren: () => import('./pages/cart-modal/cart-modal.module').then( m => m.CartModalPageModule)
   }
 ];
 
